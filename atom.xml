@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://daddydanielt.github.io/"/>
-  <updated>2016-11-09T16:03:36.000Z</updated>
+  <updated>2016-11-10T14:45:07.000Z</updated>
   <id>http://daddydanielt.github.io/</id>
   
   <author>
@@ -20,17 +20,17 @@
     <link href="http://daddydanielt.github.io/2016/11/09/%E9%96%8B%E5%A7%8B%E5%AD%B8%E7%BF%92-React-js-%E7%9B%B8%E9%97%9C%E8%B3%87%E6%BA%90%E8%88%87%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99/"/>
     <id>http://daddydanielt.github.io/2016/11/09/開始學習-React-js-相關資源與參考資料/</id>
     <published>2016-11-09T10:26:18.000Z</published>
-    <updated>2016-11-09T16:03:36.000Z</updated>
+    <updated>2016-11-10T14:45:07.000Z</updated>
     
     <content type="html"><![CDATA[<p>這裏記錄我在學習 React.js coding 的這條路上所蒐集到的相關參考資料、教材與線上課程資源，如果你剛好也想玩玩 React.js 編碼，不仿先參考我整理記錄的這些學習資源，Let’s code.。</p>
 <ul>
+<li><p><a href="https://facebook.github.io/react/docs/hello-world.html" target="_blank" rel="external">Docs - React</a> React 官方文件倉儲</p>
+</li>
 <li><p><a href="https://egghead.io/lessons/react-react-in-7-minutes" target="_blank" rel="external">React in 7 minutes - EggHead</a> 清晰的解釋 React.js 概念</p>
 </li>
 <li><p><a href="https://egghead.io/courses" target="_blank" rel="external">React courses - EggHead</a> 一系列 React.js 視頻教程之外，還有 Angular2, RxJs, NodeJS, D3, Elm … 等課程。</p>
 </li>
 <li><p><a href="https://www.udemy.com/react-redux/?altsc=435258" target="_blank" rel="external">Modern React with Redux - Udemy</a></p>
-</li>
-<li><p><a href="https://facebook.github.io/react/docs/hello-world.html" target="_blank" rel="external">Docs - React</a> React 官方文件倉儲</p>
 </li>
 <li><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript" target="_blank" rel="external">A re-introduction to JavaScript (JS tutorial)</a></p>
 </li>
@@ -45,7 +45,7 @@
     
     </summary>
     
-      <category term="Coding" scheme="http://daddydanielt.github.io/categories/Coding/"/>
+      <category term="coding" scheme="http://daddydanielt.github.io/categories/coding/"/>
     
     
       <category term="React.js" scheme="http://daddydanielt.github.io/tags/React-js/"/>
