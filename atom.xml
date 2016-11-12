@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://daddydanielt.github.io/"/>
-  <updated>2016-11-12T13:31:32.000Z</updated>
+  <updated>2016-11-12T16:05:54.000Z</updated>
   <id>http://daddydanielt.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://daddydanielt.github.io/2016/11/12/ES6-Javascript-learning-note/"/>
     <id>http://daddydanielt.github.io/2016/11/12/ES6-Javascript-learning-note/</id>
     <published>2016-11-12T13:15:07.000Z</published>
-    <updated>2016-11-12T13:31:32.000Z</updated>
+    <updated>2016-11-12T16:05:54.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://es6.io/" target="_blank" rel="external">ES6 for everyone - Wes Bos</a> 課程學習筆記<br>作為一個 Full Stack Web developer 強化 Javascript 核心能力是必須的功課。<br>好的教材可以有效提升學習效率，並開拓自己的視野接觸更多相關的開發者。</p>
 <h2 id="New-Variables"><a href="#New-Variables" class="headerlink" title="New Variables"></a>New Variables</h2><ul>
@@ -41,6 +41,21 @@
 </ul>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="comment">/* code */</span></div><div class="line">&#125;)();</div><div class="line"></div><div class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123; <span class="comment">/* code */</span> &#125;()); <span class="comment">// Crockford recommends this one</span></div><div class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123; <span class="comment">/* code */</span> &#125;)(); <span class="comment">// But this one works just as well</span></div></pre></td></tr></table></figure>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// i is fucntion scope variable</span></div><div class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i&lt;<span class="number">10</span>; i++)&#123;</div><div class="line">    <span class="built_in">console</span>.log(i);</div><div class="line">    setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="built_in">console</span>.log(<span class="string">'The number is '</span> + i);</div><div class="line">    &#125;,<span class="number">1000</span>); <span class="comment">// The number is 10,10,10...10</span></div><div class="line">&#125;</div><div class="line"><span class="built_in">console</span>.log(i) <span class="comment">//10</span></div><div class="line"></div><div class="line"><span class="comment">//y is block scope variable</span></div><div class="line"><span class="keyword">for</span>(<span class="keyword">let</span> y = <span class="number">0</span>; y&lt;<span class="number">10</span>; y++)&#123;</div><div class="line">    <span class="built_in">console</span>.log(y);</div><div class="line">    setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="built_in">console</span>.log(<span class="string">'The number is '</span> + i);</div><div class="line">    &#125;,<span class="number">1000</span>); <span class="comment">// The number is 1,2,3....10</span></div><div class="line">&#125;</div><div class="line"><span class="built_in">console</span>.log(y) <span class="comment">// Uncaught ReferenceError: y is not defined</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>temporal dead zone (TDZ scoping)</strong><blockquote>
+<p>The Temporal Dead Zone refers to a new set of ECMAScript semantics regarding scope, introduced in ES2015<br><a href="http://jsrocks.org/2015/01/temporal-dead-zone-tdz-demystified/" target="_blank" rel="external">http://jsrocks.org/2015/01/temporal-dead-zone-tdz-demystified/</a></p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(the_undefined_variable) <span class="comment">// undefined</span></div><div class="line"><span class="keyword">var</span> the_undefined_variable = <span class="string">"Initial value"</span> <span class="comment">//you can still access the var variable</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(another_undefined_variable_1) <span class="comment">// Uncaught ReferenceError</span></div><div class="line"><span class="keyword">const</span> another_undefined_variable_1 = <span class="string">"Initial value"</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(another_undefined_variable_2) <span class="comment">// Uncaught ReferenceError</span></div><div class="line"><span class="keyword">let</span> another_undefined_variable_2 = <span class="string">"Initial value"</span></div></pre></td></tr></table></figure>
+<ul>
+<li><a href="https://mathiasbynens.be/notes/es6-const" target="_blank" rel="external">ES6 <code>const</code> is not about immutability - Mathias Bynens</a><blockquote>
+<p>use <code>const</code> by default<br>only use <code>let</code> if rebinding is needed<br><code>var</code> shouldn’t be used in ES6)</p>
+</blockquote>
+</li>
+</ul>
 ]]></content>
     
     <summary type="html">
