@@ -1537,3 +1537,7 @@ em.search-keyword {
   font-weight: bold;
   font-style: normal;
   color: #01579f; }
+
+#github:before {
+  font-family: FontAwesome;
+  content: "\f092"; }
