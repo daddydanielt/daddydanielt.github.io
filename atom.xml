@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://daddydanielt.github.io/"/>
-  <updated>2016-11-12T16:21:12.000Z</updated>
+  <updated>2016-11-15T01:00:16.000Z</updated>
   <id>http://daddydanielt.github.io/</id>
   
   <author>
@@ -16,11 +16,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>指令倉庫</title>
+    <link href="http://daddydanielt.github.io/2016/11/15/command-repo/"/>
+    <id>http://daddydanielt.github.io/2016/11/15/command-repo/</id>
+    <published>2016-11-15T00:57:39.000Z</published>
+    <updated>2016-11-15T01:00:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="variable">$find</span> . -name \*.cpp -exec grep -q <span class="string">"debug"</span> <span class="string">'&#123;&#125;'</span> \; -print</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;co
+    
+    </summary>
+    
+      <category term="coding" scheme="http://daddydanielt.github.io/categories/coding/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>ES6_Javascript_learning_note</title>
     <link href="http://daddydanielt.github.io/2016/11/12/ES6-Javascript-learning-note/"/>
     <id>http://daddydanielt.github.io/2016/11/12/ES6-Javascript-learning-note/</id>
     <published>2016-11-12T13:15:07.000Z</published>
-    <updated>2016-11-12T16:21:12.000Z</updated>
+    <updated>2016-11-15T00:46:14.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://es6.io/" target="_blank" rel="external">ES6 for everyone - Wes Bos</a> 課程學習筆記<br>作為一個 Full Stack Web developer 強化 Javascript 核心能力是必須的功課。<br>好的教材可以有效提升學習效率，並開拓自己的視野接觸更多相關的開發者。</p>
 <h2 id="New-Variables"><a href="#New-Variables" class="headerlink" title="New Variables"></a>New Variables</h2><ul>
@@ -67,9 +87,9 @@
       <category term="coding" scheme="http://daddydanielt.github.io/categories/coding/"/>
     
     
-      <category term="ES6" scheme="http://daddydanielt.github.io/tags/ES6/"/>
-    
       <category term="Javascript" scheme="http://daddydanielt.github.io/tags/Javascript/"/>
+    
+      <category term="ES6" scheme="http://daddydanielt.github.io/tags/ES6/"/>
     
   </entry>
   
@@ -78,11 +98,15 @@
     <link href="http://daddydanielt.github.io/2016/11/11/%E9%96%8B%E5%A7%8B%E5%AD%B8%E7%BF%92-Swift-%E7%9B%B8%E9%97%9C%E8%B3%87%E6%BA%90%E8%88%87%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99/"/>
     <id>http://daddydanielt.github.io/2016/11/11/開始學習-Swift-相關資源與參考資料/</id>
     <published>2016-11-11T12:42:28.000Z</published>
-    <updated>2016-11-11T16:07:26.000Z</updated>
+    <updated>2016-11-15T00:41:24.000Z</updated>
     
     <content type="html"><![CDATA[<p>將 Swift3 加入我的學習課表中，這裏記錄我在學習 iOS 開發的相關參考資料與教材資源，朝向有趣的 iOS 開發領域前進囉。</p>
 <ul>
-<li><a href="https://itunes.apple.com/tw/course/developing-ios-9-apps-swift/id1104579961" target="_blank" rel="external">Developing iOS Apps with Swift - Stanford University</a><br>史丹佛大學線上課程</li>
+<li><a href="https://itunes.apple.com/tw/course/developing-ios-9-apps-swift/id1104579961" target="_blank" rel="external">Developing iOS Apps with Swift - Stanford University</a></li>
+</ul>
+<p>史丹佛大學線上課程</p>
+<ul>
+<li><a href="http://www.tutorialspoint.com/swift/" target="_blank" rel="external">Swift Tutorial - tutorialspoint</a></li>
 </ul>
 ]]></content>
     
@@ -104,20 +128,31 @@
   </entry>
   
   <entry>
-    <title>開始學習 React.js - 相關資源與參考資料</title>
+    <title>開始學習 React.js &amp;&amp; Redux - 相關資源與參考資料</title>
     <link href="http://daddydanielt.github.io/2016/11/09/%E9%96%8B%E5%A7%8B%E5%AD%B8%E7%BF%92-React-js-%E7%9B%B8%E9%97%9C%E8%B3%87%E6%BA%90%E8%88%87%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99/"/>
     <id>http://daddydanielt.github.io/2016/11/09/開始學習-React-js-相關資源與參考資料/</id>
     <published>2016-11-09T10:26:18.000Z</published>
-    <updated>2016-11-11T14:44:00.000Z</updated>
+    <updated>2016-11-15T09:12:05.000Z</updated>
     
     <content type="html"><![CDATA[<p>這裏記錄我在學習 React.js coding 的這條路上所蒐集到的相關參考資料、教材與線上課程資源，<br>如果你剛好也想玩玩 React.js 編碼，可先參考我整理記錄的這些學習資源，Let’s code.。</p>
 <ul>
-<li><p><a href="https://facebook.github.io/react/docs/hello-world.html" target="_blank" rel="external">Docs - React</a><br>React 官方文件倉儲</p>
+<li><p><a href="https://facebook.github.io/react/docs/hello-world.html" target="_blank" rel="external">Docs - React</a><br>React 官方文件</p>
 </li>
+<li><p><a href="http://redux.js.org/" target="_blank" rel="external">Docs - Redux</a><br>Redux  官方文件</p>
+<blockquote>
+<p>Redux is a predictable state container for JavaScript apps.</p>
+<p><a href="https://www.youtube.com/watch?v=xsSnOQynTHs" target="_blank" rel="external">Dan Abramov - Live React: Hot Reloading with Time Travel at react-europe 2015</a></p>
+</blockquote>
+</li>
+</ul>
+<ul>
 <li><p><a href="https://egghead.io/lessons/react-react-in-7-minutes" target="_blank" rel="external">React in 7 minutes - EggHead</a><br>快速清晰的解釋 React.js 概念，撩起你學習 React.js 的慾望</p>
 </li>
 <li><p><a href="https://www.udemy.com/react-redux/?altsc=435258" target="_blank" rel="external">Modern React with Redux - Udemy</a><br>深入淺出的講解 React Redux 的編程，一步步地演示編碼開發過程，看完整個自信指數大增。</p>
+<p>  -<a href="http://rallycoding.com" target="_blank" rel="external">Rally Coding</a><br>  -<a href="https://www.youtube.com/watch?v=Ru3Rj_hM8bo&amp;feature=youtu.be" target="_blank" rel="external">Deploying React/Redux Webpack Apps</a></p>
 </li>
+</ul>
+<ul>
 <li><p><a href="https://egghead.io/courses" target="_blank" rel="external">React courses - EggHead</a><br>EggHead 不僅有優質的 React.js 視頻教程，還有 Angular2, RxJs, NodeJS, D3, Elm … 等許多值得學習的相關課程，推薦大夥繳費升級 Pro 帳號權限。</p>
 </li>
 <li><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript" target="_blank" rel="external">A re-introduction to JavaScript (JS tutorial)</a><br>快速複習 JavaScript 基礎知識</p>
@@ -140,9 +175,9 @@
       <category term="coding" scheme="http://daddydanielt.github.io/categories/coding/"/>
     
     
-      <category term="Javascript" scheme="http://daddydanielt.github.io/tags/Javascript/"/>
-    
       <category term="React.js" scheme="http://daddydanielt.github.io/tags/React-js/"/>
+    
+      <category term="Javascript" scheme="http://daddydanielt.github.io/tags/Javascript/"/>
     
   </entry>
   
