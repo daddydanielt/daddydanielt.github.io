@@ -87,9 +87,9 @@
       <category term="coding" scheme="http://daddydanielt.github.io/categories/coding/"/>
     
     
-      <category term="Javascript" scheme="http://daddydanielt.github.io/tags/Javascript/"/>
-    
       <category term="ES6" scheme="http://daddydanielt.github.io/tags/ES6/"/>
+    
+      <category term="Javascript" scheme="http://daddydanielt.github.io/tags/Javascript/"/>
     
   </entry>
   
@@ -132,7 +132,7 @@
     <link href="http://daddydanielt.github.io/2016/11/09/%E9%96%8B%E5%A7%8B%E5%AD%B8%E7%BF%92-React-js-%E7%9B%B8%E9%97%9C%E8%B3%87%E6%BA%90%E8%88%87%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99/"/>
     <id>http://daddydanielt.github.io/2016/11/09/開始學習-React-js-相關資源與參考資料/</id>
     <published>2016-11-09T10:26:18.000Z</published>
-    <updated>2016-11-18T05:11:02.000Z</updated>
+    <updated>2016-11-29T06:23:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>這裏記錄我在學習 React.js coding 的這條路上所蒐集到的相關參考資料、教材與線上課程資源，<br>如果你剛好也想玩玩 React.js 編碼，可先參考我整理記錄的這些學習資源，Let’s code.。</p>
 <ul>
@@ -161,6 +161,8 @@
 <li><a href="http://redux.js.org/" target="_blank" rel="external">Redux Doc</a> Redux 基本知識，請先讀我。</li>
 </ul>
 </li>
+<li><p><a href="http://www.reactnativeexpress.com/" target="_blank" rel="external">React Native Express</a><br>關於 React Native 的免費教學課程，值得一看。</p>
+</li>
 <li><p>快速複習 JavaScript 基礎知識</p>
 <ul>
 <li><p><a href="https://reactforbeginners.com/" target="_blank" rel="external">React for Beginners - Wes Bos</a></p>
@@ -185,9 +187,9 @@
       <category term="coding" scheme="http://daddydanielt.github.io/categories/coding/"/>
     
     
-      <category term="React.js" scheme="http://daddydanielt.github.io/tags/React-js/"/>
-    
       <category term="Javascript" scheme="http://daddydanielt.github.io/tags/Javascript/"/>
+    
+      <category term="React.js" scheme="http://daddydanielt.github.io/tags/React-js/"/>
     
   </entry>
   
